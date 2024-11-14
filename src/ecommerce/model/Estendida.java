@@ -4,7 +4,7 @@ public class Estendida extends Principal{
 	
 	private int numeroPaginas;
 	
-	public Estendida(int codigo, int preco, String tipo, int numeroPaginas) {
+	public Estendida(int codigo, float preco, String tipo, int numeroPaginas) {
 		super(codigo, preco, tipo);
 		this.numeroPaginas = numeroPaginas;	
 	}

@@ -8,7 +8,7 @@ public abstract class Principal {
 	private String tipo;
 	
 	
-	public Principal(int codigo, int preco, String tipo) {
+	public Principal(int codigo, float preco, String tipo) {
 		this.codigo = codigo;
 		this.preco = preco;
 		this.tipo = tipo;
@@ -36,8 +36,8 @@ public abstract class Principal {
 	public abstract float aplicarDesconto();
 	
 	public void exibirProduto(){
-		System.out.print("codigo:" + codigo);
-		System.out.print("descricao:" + preco);
-		System.out.print("preco:" + tipo);
+		System.out.print("Codigo: " + codigo);
+		System.out.print("Preço: " + preco);
+		System.out.print("Tipo de livro: " + tipo);
 	}
 }

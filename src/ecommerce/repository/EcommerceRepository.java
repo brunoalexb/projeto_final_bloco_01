@@ -7,5 +7,5 @@ public interface EcommerceRepository {
 	public void listarTodos();
 	public void cadastrar(Principal principal);
 	public void atualizar(Principal principal);
-	public void deletar(Principal principal);
+	void deletar(int codigo);
 }
